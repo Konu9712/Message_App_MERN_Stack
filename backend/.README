@@ -1,0 +1,17 @@
+Go to https://pusher.com/ and SignIN first
+Copy your credentials and paste it in
+    
+    const pusher = new Pusher({
+    appId: "<appID>",
+    key: "<key>",
+    secret: "<secret>",
+    cluster: "eu",
+    useTLS: true
+                    });
+                    
+    Create your own MongoDB cluster and copy the API to 
+    
+    // DB config
+    const connection_url = "<MONGODB API KEY>"
+    
+    And you are good to go !!
